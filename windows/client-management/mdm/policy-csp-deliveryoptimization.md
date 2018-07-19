@@ -1212,7 +1212,7 @@ ADMX Info:
 <!--Description-->
 Added in Windows 10, version 1803. Specifies the maximum background download bandwidth that Delivery Optimization uses across all concurrent download activities as a percentage of available download bandwidth. The default value 0 (zero) means that Delivery Optimization dynamically adjusts to use the available bandwidth for background downloads.
 
-Note that downloads from LAN peers will not be throttled even when this policy is set.
+Note that downloads from LAN and Group peers will not be throttled even when this policy is set.
 
 <!--/Description-->
 <!--ADMXMapped-->
@@ -1287,7 +1287,7 @@ This policy is deprecated. Use [DOPercentageMaxForegroundBandwidth](#deliveryopt
 <!--Description-->
 Added in Windows 10, version 1803. Specifies the maximum foreground download bandwidth that Delivery Optimization uses across all concurrent download activities as a percentage of available download bandwidth. The default value 0 (zero) means that Delivery Optimization dynamically adjusts to use the available bandwidth for foreground downloads.
 
-Note that downloads from LAN peers will not be throttled even when this policy is set.
+Note that downloads from LAN and Group peers will not be throttled even when this policy is set.
 
 <!--/Description-->
 <!--ADMXMapped-->
