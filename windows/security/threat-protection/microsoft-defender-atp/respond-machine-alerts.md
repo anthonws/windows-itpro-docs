@@ -164,6 +164,9 @@ Depending on the severity of the attack and the sensitivity of the device, you m
 >- Full isolation is available for devices on Windows 10, version 1703.
 >- Selective isolation is available for devices on Windows 10, version 1709 or later.
 
+>[!IMPORTANT]
+>- When isolating a device, only certain processes and destinations are allowed. Therefore, devices that are behind a full VPN tunnel won't be able to reach the Microsoft Defender for Endpoint Cloud service after the device is isolated. The recommendation is to use split-tunneling VPN.
+
 This device isolation feature disconnects the compromised device from the network while retaining connectivity to the Defender for Endpoint service, which continues to monitor the device.
 
 On Windows 10, version 1709 or later, you'll have additional control over the network isolation level. You can also choose to enable Outlook, Microsoft Teams, and Skype for Business connectivity (a.k.a 'Selective Isolation').
